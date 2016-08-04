@@ -1,7 +1,43 @@
+html, body{height: 100vh;}
 body {
-  text-align: center;
-  background:url ("plantsinsingapore.jpg");
-  font-family:Avenir next
-  color:#ffffff
+      text-align: center;
+      background: url("images/website.jpg") no-repeat center center scroll;
+      background-size: cover;
+      font-family:sans-serif;
+      position:relative;
+      margin:0;
 
+}
+
+a  {
+    text-decoration:none;
+    color:#000;
+    font-size:40px;
+    font-weight:bold;
+    position:absolute;
+
+}
+
+a:nth-of-type(1){
+   top:20px;
+   left:0;
+   width:100%;
+   text-align:center;
+}
+
+a:nth-of-type(2){
+   bottom:20px;
+   left:0;
+   width:100%;
+   text-align:center;
+}
+
+a:nth-of-type(3){
+   left:20px;
+   top:47vh;
+}
+
+a:nth-of-type(4){
+   right:20px;
+   top:47vh;
 }
