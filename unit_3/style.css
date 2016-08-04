@@ -1,18 +1,21 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:700,400);
+
 html, body{height: 100vh;}
 body {
       text-align: center;
-      background: url("images/website.jpg") no-repeat center center scroll;
+      background: url("images/website4.jpg") no-repeat center center scroll;
       background-size: cover;
-      font-family:sans-serif;
+      font-family: 'Montserrat', sans-serif;
       position:relative;
       margin:0;
+      float:center;
 
 }
 
 a  {
     text-decoration:none;
     color:#000;
-    font-size:40px;
+    font-size:18px;
     font-weight:bold;
     position:absolute;
 
@@ -35,9 +38,11 @@ a:nth-of-type(2){
 a:nth-of-type(3){
    left:20px;
    top:47vh;
+   -webkit-transform: rotate(-90deg);
 }
 
 a:nth-of-type(4){
    right:20px;
    top:47vh;
+   -webkit-transform: rotate(90deg);
 }
